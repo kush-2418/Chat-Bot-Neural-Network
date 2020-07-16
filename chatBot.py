@@ -10,7 +10,6 @@ import pickle
 import os
 import tensorflow as tf
 import nltk
-import tflearn
 import numpy as np
 import random
 import json

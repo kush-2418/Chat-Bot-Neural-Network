@@ -153,7 +153,6 @@ scikit-learn==0.23.1
 scipy==1.4.1
 seaborn==0.10.1
 Send2Trash==1.5.0
-sip==4.19.22
 six==1.15.0
 smmap==3.0.4
 sniffio==1.1.0

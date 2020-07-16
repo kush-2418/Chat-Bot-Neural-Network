@@ -33,16 +33,16 @@ app.static_folder = 'static'
 def init():
     global data,words,tags,train_x,train_y,graph,questions,model
     # load the pre-trained Keras model
-    data = pickle.load(open('/Users/kush/Downloads/ChatBot/training_data','rb'))
+    data = pickle.load(open('training_data','rb'))
     words = data['words']
     tags = data['tags']
     train_x = data['train_x']
     train_y = data['train_y']
     graph = tf.get_default_graph()
-    with open('/Users/kush/Downloads/ChatBot/DataScienceBot.json') as json_data:
+    with open('DataScienceBot.json') as json_data:
         questions = json.load(json_data)
 
-    model = load_model('/Users/kush/Downloads/ChatBot/chatbot_model.h5')
+    model = load_model('chatbot_model.h5')
 
 @app.route("/")
 def home():

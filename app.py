@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jul 14 23:53:41 2020
-
-@author: kush
-"""
-
 
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
@@ -28,20 +20,15 @@ from flask import Flask, render_template, flash, request, url_for, redirect, ses
 app = Flask(__name__)
 app.static_folder = 'static'
 
-# restoring all data 
-def init():
-    global data,words,tags,train_x,train_y,graph,questions,model
-    # load the pre-trained Keras model
-    data = pickle.load(open('training_data','rb'))
-    words = data['words']
-    tags = data['tags']
-    train_x = data['train_x']
-    train_y = data['train_y']
-    graph = tf.get_default_graph()
-    with open('DataScienceBot.json') as json_data:
-        questions = json.load(json_data)
-
-    model = load_model('chatbot_model.h5')
+data = pickle.load(open('training_data','rb'))
+words = data['words']
+tags = data['tags']
+train_x = data['train_x']
+train_y = data['train_y']
+graph = tf.get_default_graph()
+with open('DataScienceBot.json') as json_data:
+    questions = json.load(json_data)
+model = load_model('chatbot_model.h5')
 
 @app.route("/")
 def home():

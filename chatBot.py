@@ -18,7 +18,7 @@ from keras.models import Sequential
 from keras.layers import Dense, Activation, Dropout
 # restoring all data 
 
-data = pickle.load(open('/Users/kush/Downloads/ChatBot/training_data','rb'))
+data = pickle.load(open('training_data','rb'))
 words = data['words']
 tags = data['tags']
 train_x = data['train_x']
@@ -26,7 +26,7 @@ train_y = data['train_y']
 
 print(tags)
 
-with open('/Users/kush/Downloads/ChatBot/DataScienceBot.json') as json_data:
+with open('DataScienceBot.json') as json_data:
     questions = json.load(json_data)
     
 model = Sequential()
@@ -47,7 +47,7 @@ from keras.models import load_model
 model = load_model('chatbot_model.h5')
 
 
-with open('/Users/kush/Downloads/ChatBot/DataScienceBot.json') as json_data:
+with open('DataScienceBot.json') as json_data:
     questions = json.load(json_data)
     
 def clean_up_sentence(sentence):

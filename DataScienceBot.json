@@ -1,0 +1,458 @@
+{
+	"questions": [
+
+		{
+			"tag": "greeting",
+			"patterns": ["Hi", "How are you", "Is anyone there?", "Hello,there"],
+			"responses": ["Hello, thanks for visiting ", "Good to see you ", "Hi, there ", "How can I help you ? "]
+		},
+
+		{
+			"tag": "goodbye",
+			"patterns": ["Bye", "See you later", "GoodBye", "Tata"],
+			"responses": ["See you later, thanks for visiting", "Have a nice day", "Bye, Come back again soon", "Visit Again, Bye"]
+		},
+
+		{
+			"tag": "thanks",
+			"patterns": ["Thanks", "Thank You", "That was very helpful", "Thank you so much"],
+			"responses": ["Happy to help", "Any Time", "Welcome", "My pleasure"]
+		},
+
+		{
+			"tag": "data science",
+			"patterns": ["What is Data Science?", "Data Science", "Tell me about Data Science", "Describe Data Science"],
+			"responses": ["It is an inter-disciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from many structural and unstructured data.", "It is an inter-disciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from many structural and unstructured data.", "It is an inter-disciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from many structural and unstructured data.", "It is an inter-disciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from many structural and unstructured data."]
+		},
+
+		{
+			"tag": "job role",
+			"patterns": ["What does Data Scientist Do?", "What is role of data scientist?", "Tell me about data scientist", "What are different roles of data scientist?"],
+			"responses": ["Data scientists help companies interpret and manage data and solve complex problems using expertise in a variety of data niches.", "Data scientists help companies interpret and manage data and solve complex problems using expertise in a variety of data niches.", "Data scientists help companies interpret and manage data and solve complex problems using expertise in a variety of data niches.", "Data scientists help companies interpret and manage data and solve complex problems using expertise in a variety of data niches."]
+		},
+
+		{
+			"tag": "skills",
+			"patterns": ["what are different skills of data scientist?", "skills for data scientist", "what skills are required to become data scientist?", "Tell me different skills to become data scientist?"],
+			"responses": ["Data Scientist should generally have a foundation in computer science, modeling, statistics, analytics, and math - coupled with a strong business sense", "Data Scientist should generally have a foundation in computer science, modeling, statistics, analytics, and math - coupled with a strong business sense", "Data Scientist should generally have a foundation in computer science, modeling, statistics, analytics, and math - coupled with a strong business sense", "Data Scientist should generally have a foundation in computer science, modeling, statistics, analytics, and math - coupled with a strong business sense"]
+		},
+
+		{
+			"tag": "data analyst",
+			"patterns": ["Who is data analyist?", "data analyst", "Who is data analyst?", "Tell me about data analyst"],
+			"responses": ["Data analysts bridge the gap between data scientists and business analysts. They are provided with the questions that need answering from an organization and then organize and analyze data to find results that align with high-level business strategy", "Data analysts bridge the gap between data scientists and business analysts. They are provided with the questions that need answering from an organization and then organize and analyze data to find results that align with high-level business strategy", "Data analysts bridge the gap between data scientists and business analysts. They are provided with the questions that need answering from an organization and then organize and analyze data to find results that align with high-level business strategy", "Data analysts bridge the gap between data scientists and business analysts. They are provided with the questions that need answering from an organization and then organize and analyze data to find results that align with high-level business strategy"]
+		},
+
+
+		{
+			"tag": "data analyst skills",
+			"patterns": ["What skills are required to become data analyst?", "data analyst skills", "Tell me about the skills to become data analyst", "What are different skills for data analyst?"],
+			"responses": ["Skills needed by a data analyst are Programming skills (SAS, R, Python), statistical and mathematical skills, data wrangling, data visualization", "Skills needed by a data analyst are Programming skills (SAS, R, Python), statistical and mathematical skills, data wrangling, data visualization", "Skills needed by a data analyst are Programming skills (SAS, R, Python), statistical and mathematical skills, data wrangling, data visualization", "Skills needed by a data analyst are Programming skills (SAS, R, Python), statistical and mathematical skills, data wrangling, data visualization"]
+		},
+
+
+		{
+			"tag": "data engineer",
+			"patterns": ["What is a data engineer?", "data engineer", "who is a data engineer", "tell me about the data engineer"],
+			"responses": ["Data engineers manage exponential amounts of rapidly changing data. They focus on the development, deployment, management, and optimization of data pipelines and infrastructure to transform and transfer data to data scientists for querying.", "Data engineers manage exponential amounts of rapidly changing data. They focus on the development, deployment, management, and optimization of data pipelines and infrastructure to transform and transfer data to data scientists for querying.", "Data engineers manage exponential amounts of rapidly changing data. They focus on the development, deployment, management, and optimization of data pipelines and infrastructure to transform and transfer data to data scientists for querying.", "Data engineers manage exponential amounts of rapidly changing data. They focus on the development, deployment, management, and optimization of data pipelines and infrastructure to transform and transfer data to data scientists for querying."]
+		},
+
+
+		{
+			"tag": "data engineer skills",
+			"patterns": ["what are different skills to become data engineer", "data engineer skills", "tell me about the data engineer skills", "What skill does data engineer should have"],
+			"responses": ["Skills need by a data engineer are Programming languages (Java, Scala), NoSQL databases (MongoDB, Cassandra DB), frameworks (Apache Hadoop)", "Skills need by a data engineer are Programming languages (Java, Scala), NoSQL databases (MongoDB, Cassandra DB), frameworks (Apache Hadoop)", "Skills need by a data engineer are Programming languages (Java, Scala), NoSQL databases (MongoDB, Cassandra DB), frameworks (Apache Hadoop)", "Skills need by a data engineer are Programming languages (Java, Scala), NoSQL databases (MongoDB, Cassandra DB), frameworks (Apache Hadoop)"]
+		},
+
+		{
+			"tag": "who",
+			"patterns": ["Who are you?", "What is your name?", "What do you do?", "Tell me about yourself?"],
+			"responses": ["I am a Data Science bot, created by Kush Shrivastava", "I am a Data Science bot, created by Kush Shrivastava", "I am a Data Science bot, created by Kush Shrivastava", "I am a Data Science bot, created by Kush Shrivastava"]
+		},
+
+
+		{
+			"tag": "help",
+			"patterns": ["Help me", "help please", "what help can you do?", "hell me please"],
+			"responses": ["I can help you by answering your data science related questions", "I can help you by answering your data science related questions", "I can help you by answering your data science related questions", "I can help you by answering your data science related questions"]
+		},
+
+		{
+			"tag": "ml",
+			"patterns": ["What is machine learning?", "What is ML?", "Tell me about machine learning", "Machine learning"],
+			"responses": ["Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed.", "Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed.", "Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed.", "Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed."]
+		},
+
+
+		{
+			"tag": "methods",
+			"patterns": ["what are machine learning methods", "machine learning methods", "categories of machine learning", "How many type of categories of machine learning"],
+			"responses": ["Machine learning algorithms are often categorized as Supervised or Unsupervised learning", "Machine learning algorithms are often categorized as Supervised or Unsupervised learning", "Machine learning algorithms are often categorized as Supervised or Unsupervised learning", "Machine learning algorithms are often categorized as Supervised or Unsupervised learning"]
+		},
+
+
+		{
+			"tag": "supervised",
+			"patterns": ["What is supervised learning", "what is supervised machine learning", "Tell me about supervised learning", "supervised learning"],
+			"responses": ["Supervised machine learning algorithms can apply what has been learned in the past to new data using labeled examples to predict future events.", "Supervised machine learning algorithms can apply what has been learned in the past to new data using labeled examples to predict future events.", "Supervised machine learning algorithms can apply what has been learned in the past to new data using labeled examples to predict future events.", "Supervised machine learning algorithms can apply what has been learned in the past to new data using labeled examples to predict future events."]
+		},
+
+
+		{
+			"tag": "unsupervised",
+			"patterns": ["what is unsupervised learning?", "what is unsupervised machine learning", "unsupervised machine learning", "Tell me about the unsupervised machine learning"],
+			"responses": ["Unsupervised machine learning algorithms are used when the information used to train is neither classified nor labeled.", "Unsupervised machine learning algorithms are used when the information used to train is neither classified nor labeled.", "Unsupervised machine learning algorithms are used when the information used to train is neither classified nor labeled.", "Unsupervised machine learning algorithms are used when the information used to train is neither classified nor labeled."]
+		},
+
+
+		{
+			"tag": "important",
+			"patterns": ["Why is machine learning important?", "importance of machine learning", "What is importance of machine learning", "Tell me something about the importance of machine learning"],
+			"responses": ["Machine learning has several very practical applications that drive the kind of real business results such as time and money savings that have the potential to dramatically impact the future of your organization.", "Machine learning has several very practical applications that drive the kind of real business results such as time and money savings that have the potential to dramatically impact the future of your organization.", "Machine learning has several very practical applications that drive the kind of real business results such as time and money savings that have the potential to dramatically impact the future of your organization.", "Machine learning has several very practical applications that drive the kind of real business results  such as time and money savings  that have the potential to dramatically impact the future of your organization."]
+		},
+
+
+		{
+			"tag": "good",
+			"patterns": ["what is a good machine learning system", "good machine learning system", "what makes a good machine learning system", "What is required to create a good machine learning systems"],
+			"responses": ["Data preparation capabilities, Algorithms- basic and advanced, Automation and iterative processes, Scalability and Ensemble modeling", "Data preparation capabilities, Algorithms- basic and advanced, Automation and iterative processes, Scalability and Ensemble modeling", "Data preparation capabilities, Algorithms- basic and advanced, Automation and iterative processes, Scalability and Ensemble modeling", "Data preparation capabilities, Algorithms- basic and advanced, Automation and iterative processes, Scalability and Ensemble modeling"]
+		},
+
+
+		{
+			"tag": "label",
+			"patterns": ["What is label?", "What is target label", "label", "target"],
+			"responses": ["In machine learning, Labels are the final output. You can also consider the output classes to be the labels", "In machine learning, Labels are the final output. You can also consider the output classes to be the labels", "In machine learning, Labels are the final output. You can also consider the output classes to be the labels", "In machine learning, Labels are the final output. You can also consider the output classes to be the labels"]
+		},
+
+
+		{
+			"tag": "model",
+			"patterns": ["what is model", "what is machine learning model", "machine learning model", "tell me about a model"],
+			"responses": ["A machine learning model can be a mathematical representation of a real-world process. To generate a machine learning model you will need to provide training data to a machine learning algorithm to learn from.", "A machine learning model can be a mathematical representation of a real-world process. To generate a machine learning model you will need to provide training data to a machine learning algorithm to learn from.", "A machine learning model can be a mathematical representation of a real-world process. To generate a machine learning model you will need to provide training data to a machine learning algorithm to learn from.", "A machine learning model can be a mathematical representation of a real-world process. To generate a machine learning model you will need to provide training data to a machine learning algorithm to learn from."]
+		},
+
+
+		{
+			"tag": "training",
+			"patterns": ["what is training", "training", "what is model training", "tell me something about training"],
+			"responses": ["While training for machine learning, you pass an algorithm with training data. The learning algorithm finds patterns in the training data such that the input parameters correspond to the target. The output of the training process is a machine learning model which you can then use to make predictions.", "While training for machine learning, you pass an algorithm with training data. The learning algorithm finds patterns in the training data such that the input parameters correspond to the target. The output of the training process is a machine learning model which you can then use to make predictions.", "While training for machine learning, you pass an algorithm with training data. The learning algorithm finds patterns in the training data such that the input parameters correspond to the target. The output of the training process is a machine learning model which you can then use to make predictions.", "While training for machine learning, you pass an algorithm with training data. The learning algorithm finds patterns in the training data such that the input parameters correspond to the target. The output of the training process is a machine learning model which you can then use to make predictions."]
+		},
+
+
+		{
+			"tag": "regression",
+			"patterns": ["what is regression", "regression", "what is regression in machine learning", "tell me something about regression"],
+			"responses": ["Regression are used when the output is real-valued based on continuous variables. For example, any time series data. This technique involves fitting a line.", "Regression are used when the output is real-valued based on continuous variables. For example, any time series data. This technique involves fitting a line.", "Regression are used when the output is real-valued based on continuous variables. For example, any time series data. This technique involves fitting a line.", "Regression are used when the output is real-valued based on continuous variables. For example, any time series data. This technique involves fitting a line."]
+		},
+
+
+		{
+			"tag": "classification",
+			"patterns": ["what is classification?", "what is classification in machine learning", "classification", "tell me something about classification"],
+			"responses": ["In classification, you will need to categorize data into predefined classes. For example, an email can either be spam or not spam.", "In classification, you will need to categorize data into predefined classes. For example, an email can either be spam or not spam.", "In classification, you will need to categorize data into predefined classes. For example, an email can either be spam or not spam.", "In classification, you will need to categorize data into predefined classes. For example, an email can either bespam or not spam."]
+		},
+
+		{
+			"tag": "features",
+			"patterns": ["what are features", "what is feature", "feature", "what are features in machine learning"],
+			"responses": ["Features are individual independent variables that act as the input in your system. Prediction models use features to make predictions.", "Features are individual independent variables that act as the input in your system. Prediction models use features to make predictions.", "Features are individual independent variables that act as the input in your system. Prediction models use features to make predictions.", "Features are individual independent variables that act as the input in your system. Prediction models use features to make predictions."]
+		},
+
+
+		{
+			"tag": "overfitting",
+			"patterns": ["what is overfitting", "define overfitting", "overfitting", "tell me something about overfitting"],
+			"responses": ["A model is overfitting if it fits the training data too well and there is a poor generalization of new data.", "A model is overfitting if it fits the training data too well and there is a poor generalization of new data.", "A model is overfitting if it fits the training data too well and there is a poor generalization of new data.", "A model is overfitting if it fits the training data too well and there is a poor generalization of new data."]
+		},
+
+
+		{
+			"tag": "regularization",
+			"patterns": ["What is regularization", "regularization", "what is regularization in machine learning", "tell me something about regularization"],
+			"responses": ["Regularization is the method to estimate a preferred complexity of the machine learning model so that the model generalizes and the over-fit/under-fit problem is avoided.", "Regularization is the method to estimate a preferred complexity of the machine learning model so that the model generalizes and the over-fit/under-fit problem is avoided.", "Regularization is the method to estimate a preferred complexity of the machine learning model so that the model generalizes and the over-fit/under-fit problem is avoided.", "Regularization is the method to estimate a preferred complexity of the machine learning model so that the model generalizes and the over-fit/under-fit problem is avoided."]
+		},
+
+
+		{
+			"tag": "param",
+			"patterns": ["what is difference between hyperparameters and parameters?", "what is difference between parameters and hyperparameters?", "hyperparameters vs parameters", "differentiate between hyperparameters and parameters"],
+			"responses": ["Parameters are configuration variables that can be thought to be internal to the model as they can be estimated from the training data. On the other hand, hyperparameters cannot be estimated from the training data.", "Parameters are configuration variables that can be thought to be internal to the model as they can be estimated from the training data. On the other hand, hyperparameters cannot be estimated from the training data.", "Parameters are configuration variables that can be thought to be internal to the model as they can be estimated from the training data. On the other hand, hyperparameters cannot be estimated from the training data.", "Parameters are configuration variables that can be thought to be internal to the model as they can be estimated from the training data. On the other hand, hyperparameters cannot be estimated from the training data."]
+		},
+
+
+		{
+			"tag": "underfitting",
+			"patterns": ["what is underfitting?", "define underfitting", "underfitting", "Tell me about underfitting?"],
+			"responses": ["Underfitting refers to a model that can neither model the training data nor generalize to new data.", "Underfitting refers to a model that can neither model the training data nor generalize to new data.", "Underfitting refers to a model that can neither model the training data nor generalize to new data.", "Underfitting refers to a model that can neither model the training data nor generalize to new data."]
+		},
+
+
+		{
+			"tag": "algo1",
+			"patterns": ["what are different classification algorithms?", "classification algorithms", "machine learning classification algorithms", "tell me about machine learning classification algorithms"],
+			"responses": ["Logistic regression, Naive bayes classifier, Support vector machines, Decision trees, K- Nearest Neighbor, Random Forest and Neural Networks", "Logistic regression, Naive bayes classifier, Support vector machines, Decision trees, K- Nearest Neighbor, Random Forest and Neural Networks", "Logistic regression, Naive bayes classifier, Support vector machines, Decision trees, K- Nearest Neighbor, Random Forest and Neural Networks", "Logistic regression, Naive bayes classifier, Support vector machines, Decision trees, K- Nearest Neighbor, Random Forest and Neural Networks"]
+		},
+
+
+		{
+			"tag": "logis",
+			"patterns": ["What is logistic regression", "logistic regression", "tell me about logistic regression", "What is logistic regression in machine learning"],
+			"responses": ["Logistic Regression estimates discrete values (Binary values like 0/1, yes/no, true/false) based on a given set of independent variable(s). Simply put, it basically, predicts the probability of occurrence of an event by fitting data to a logit function. Hence, it is also known as logit regression.", "Logistic Regression estimates discrete values (Binary values like 0/1, yes/no, true/false) based on a given set of independent variable(s). Simply put, it basically, predicts the probability of occurrence of an event by fitting data to a logit function. Hence, it is also known as logit regression.", "Logistic Regression estimates discrete values (Binary values like 0/1, yes/no, true/false) based on a given set of independent variable(s). Simply put, it basically, predicts the probability of occurrence of an event by fitting data to a logit function. Hence, it is also known as logit regression.", "Logistic Regression estimates discrete values (Binary values like 0/1, yes/no, true/false) based on a given set of independent variable(s). Simply put, it basically, predicts the probability of occurrence of an event by fitting data to a logit function. Hence, it is also known as logit regression."]
+		},
+
+
+
+		{
+			"tag": "decision",
+			"patterns": ["What is a decision tree", "decision tree", "tell me about decision tree", "what is decision tree in machine learning"],
+			"responses": ["It is a type of supervised learning algorithm mostly used for classification problems. What this algorithm does is, it splits the population into two or more homogeneous sets based on the most significant attributes making the groups as distinct as possible.", "It is a type of supervised learning algorithm mostly used for classification problems. What this algorithm does is, it splits the population into two or more homogeneous sets based on the most significant attributes making the groups as distinct as possible.", "It is a type of supervised learning algorithm mostly used for classification problems. What this algorithm does is, it splits the population into two or more homogeneous sets based on the most significant attributes making the groups as distinct as possible.", "It is a type of supervised learning algorithm mostly used for classification problems. What this algorithm does is, it splits the population into two or more homogeneous sets based on the most significant attributes making the groups as distinct as possible."]
+		},
+
+
+		{
+			"tag": "superunsuper",
+			"patterns": ["what are the differences between supervised and unsupervised learning?", "difference between supervised learning and unsupervised learning?", "Tell me the difference between supervised and unsupervised learning?", "supervised vs unsupervised learning"],
+			"responses": ["Supervised learning uses known and labeled data as input whereas unsupervised uses unlabeled data as input.", "Supervised learning uses known and labeled data as input whereas unsupervised uses unlabeled data as input.", "Supervised learning uses known and labeled data as input whereas unsupervised uses unlabeled data as input.", "Supervised learning uses known and labeled data as input whereas unsupervised uses unlabeled data as input."]
+		}, {
+			"tag": "over",
+			"patterns": ["how can you avoid overfitting the model?", "how overfitting can be avoided?", "what are the mechanisms to avoid overfitting of model?", "overfitting avoiding mechanism"],
+			"responses": ["Keep the model simple, use cross validation techniques such as k fold cross validation, use regularization techniques", "Keep the model simple, use cross validation techniques such as k fold cross validation, use regularization techniques", "Keep the model simple, use cross validation techniques such as k fold cross validation, use regularization techniques", "Keep the model simple, use cross validation techniques such as k fold cross validation, use regularization techniques"]
+		}, {
+			"tag": "univariate",
+			"patterns": ["what is univariate?", "univariate data", "what is univariate data?", "tell me about the univariate data"],
+			"responses": ["Univariate data contains only one variable. The purpose of the univariate analysis is to describe the data and find patterns that exist within it. \\n\\nExample: height of students", "Univariate data contains only one variable. The purpose of the univariate analysis is to describe the data and find patterns that exist within it", "Univariate data contains only one variable. The purpose of the univariate analysis is to describe the data and find patterns that exist within it", "Univariate data contains only one variable. The purpose of the univariate analysis is to describe the data and find patterns that exist within it"]
+		}, {
+			"tag": "bivariate",
+			"patterns": ["What is bivariate?", "bivariate data", "what is bivariate data", "tell me something about bivariate data"],
+			"responses": ["Bivariate data involves two different variables. The analysis of this type of data deals with causes and relationships and the analysis is done to determine the relationship between the two variables", "Bivariate data involves two different variables. The analysis of this type of data deals with causes and relationships and the analysis is done to determine the relationship between the two variables", "Bivariate data involves two different variables. The analysis of this type of data deals with causes and relationships and the analysis is done to determine the relationship between the two variables", "Bivariate data involves two different variables. The analysis of this type of data deals with causes and relationships and the analysis is done to determine the relationship between the two variables"]
+		}, {
+			"tag": "multivariate",
+			"patterns": ["what is multivariate", "what is multivariate data", "multivariate data", "tell me something about multivariate data"],
+			"responses": ["Multivariate data involves three or more variables, it is categorized under multivariate. It is similar to a bivariate but contains more than one dependent variable.", "Multivariate data involves three or more variables, it is categorized under multivariate. It is similar to a bivariate but contains more than one dependent variable.", "Multivariate data involves three or more variables, it is categorized under multivariate. It is similar to a bivariate but contains more than one dependent variable.", "Multivariate data involves three or more variables, it is categorized under multivariate. It is similar to a bivariate but contains more than one dependent variable."]
+		}, {
+			"tag": "feature selection",
+			"patterns": ["what are feature selection methods", "feature selection methods", "feature selection techniques", "what are different feature selection techniques"],
+			"responses": ["There are two main methods for feature selection, Filter methods and Wrapper methods", "There are two main methods for feature selection, Filter methods and Wrapper methods", "There are two main methods for feature selection, Filter methods and Wrapper methods", "There are two main methods for feature selection, Filter methods and Wrapper methods"]
+		}, {
+			"tag": "dimension",
+			"patterns": ["what are dimensionality reduction?", "what is dimensionality reduction?", "dimensionality reduction", "tell me about the dimensionality reduction"],
+			"responses": ["Dimensionality reduction refers to the process of converting a data set with vast dimensions into data with fewer dimensions (fields) to convey similar information concisely", "Dimensionality reduction refers to the process of converting a data set with vast dimensions into data with fewer dimensions (fields) to convey similar information concisely", "Dimensionality reduction refers to the process of converting a data set with vast dimensions into data with fewer dimensions (fields) to convey similar information concisely", "Dimensionality reduction refers to the process of converting a data set with vast dimensions into data with fewer dimensions (fields) to convey similar information concisely"]
+		}, {
+			"tag": "recommender",
+			"patterns": ["what are recommender systems", "what is recommender system", "recommender system", "tell me about the recommender system"],
+			"responses": ["A recommender system predicts what a user would rate a specific product based on their preferences", "A recommender system predicts what a user would rate a specific product based on their preferences", "A recommender system predicts what a user would rate a specific product based on their preferences", "A recommender system predicts what a user would rate a specific product based on their preferences"]
+		}, {
+			"tag": "cross validation",
+			"patterns": ["what is cross validation", "what is cross validation technique", "cross validation technique", "tell me about the cross validation technique"],
+			"responses": ["Cross-validation is a model validation technique for evaluating how the outcomes of a statistical analysis will generalize to an independent data set", "Cross-validation is a model validation technique for evaluating how the outcomes of a statistical analysis will generalize to an independent data set", "Cross-validation is a model validation technique for evaluating how the outcomes of a statistical analysis will generalize to an independent data set", "Cross-validation is a model validation technique for evaluating how the outcomes of a statistical analysis will generalize to an independent data set"]
+		}, {
+			"tag": "bias",
+			"patterns": ["what is bias", "what is bias in data science", "what is biased model", "tell me about the bias"],
+			"responses": ["Bias is an error introduced in your model due to oversimplification of the machine learning algorithm. It can lead to underfitting.", "Bias is an error introduced in your model due to oversimplification of the machine learning algorithm. It can lead to underfitting.", "Bias is an error introduced in your model due to oversimplification of the machine learning algorithm. It can lead to underfitting.", "Bias is an error introduced in your model due to oversimplification of the machine learning algorithm. It can lead to underfitting."]
+		}, {
+			"tag": "variance",
+			"patterns": ["what is variance", "what is variance in data science", "what is variance in model", "what is variance error"],
+			"responses": ["Variance is error introduced in your model due to complex machine learning algorithm, your model learns noise also from the training data set and performs badly on test data set. It can lead to high sensitivity and overfitting.", "Variance is error introduced in your model due to complex machine learning algorithm, your model learns noise also from the training data set and performs badly on test data set. It can lead to high sensitivity and overfitting.", "Variance is error introduced in your model due to complex machine learning algorithm, your model learns noise also from the training data set and performs badly on test data set. It can lead to high sensitivity and overfitting.", "Variance is error introduced in your model due to complex machine learning algorithm, your model learns noise also from the training data set and performs badly on test data set. It can lead to high sensitivity and overfitting."]
+		}, {
+			"tag": "confusion",
+			"patterns": ["what is confusion matrix?", "how to make confusion matrix", "confusion matrix", "tell me about confusion matrix"],
+			"responses": ["The confusion matrix is a 2X2 table that contains 4 outputs provided by the binary classifier. Various measures, such as error-rate, accuracy, specificity, sensitivity, precision and recall are derived from it.", "The confusion matrix is a 2X2 table that contains 4 outputs provided by the binary classifier. Various measures, such as error-rate, accuracy, specificity, sensitivity, precision and recall are derived from it.", "The confusion matrix is a 2X2 table that contains 4 outputs provided by the binary classifier. Various measures, such as error-rate, accuracy, specificity, sensitivity, precision and recall are derived from it.", "The confusion matrix is a 2X2 table that contains 4 outputs provided by the binary classifier. Various measures, such as error-rate, accuracy, specificity, sensitivity, precision and recall are derived from it."]
+		}, {
+			"tag": "pvalue",
+			"patterns": ["what is p-value", "what is pvalue", "pvalue", "tell me about the pvalue"],
+			"responses": ["When you perform a hypothesis test in statistics, a p-value can help you determine the strength of your results. p-value is a number between 0 and 1. Based on the value it will denote the strength of the results", "When you perform a hypothesis test in statistics, a p-value can help you determine the strength of your results. p-value is a number between 0 and 1. Based on the value it will denote the strength of the results", "When you perform a hypothesis test in statistics, a p-value can help you determine the strength of your results. p-value is a number between 0 and 1. Based on the value it will denote the strength of the results", "When you perform a hypothesis test in statistics, a p-value can help you determine the strength of your results. p-value is a number between 0 and 1. Based on the value it will denote the strength of the results"]
+		}, {
+			"tag": "roc",
+			"patterns": ["what is roc curve", "what is receiver operational characterstic", "ROC", "tell me about the ROC"],
+			"responses": ["The ROC curve is a graphical representation of the contrast between true positive rates and false-positive rates at various thresholds. It is often used as a proxy for the trade-off between the sensitivity(true positive rate) and false-positive rate.", "The ROC curve is a graphical representation of the contrast between true positive rates and false-positive rates at various thresholds. It is often used as a proxy for the trade-off between the sensitivity(true positive rate) and false-positive rate.", "The ROC curve is a graphical representation of the contrast between true positive rates and false-positive rates at various thresholds. It is often used as a proxy for the trade-off between the sensitivity(true positive rate) and false-positive rate.", "The ROC curve is a graphical representation of the contrast between true positive rates and false-positive rates at various thresholds. It is often used as a proxy for the trade-off between the sensitivity(true positive rate) and false-positive rate."]
+		}, {
+			"tag": "tfidf",
+			"patterns": ["what is Term frequency inverse document frequency", "Term frequency inverse document frequency", "TF-IDF", "tfidf"],
+			"responses": ["TF-IDF is short for term frequency-inverse document frequency, is a numerical statistic that is intended to reflect how important a word is to a document in a collection or corpus. It is often used as a weighting factor in information retrieval and text mining", "TF-IDF is short for term frequency-inverse document frequency, is a numerical statistic that is intended to reflect how important a word is to a document in a collection or corpus. It is often used as a weighting factor in information retrieval and text mining", "TF-IDF is short for term frequency-inverse document frequency, is a numerical statistic that is intended to reflect how important a word is to a document in a collection or corpus. It is often used as a weighting factor in information retrieval and text mining", "TF-IDF is short for term frequency-inverse document frequency, is a numerical statistic that is intended to reflect how important a word is to a document in a collection or corpus. It is often used as a weighting factor in information retrieval and text mining"]
+		}, {
+			"tag": "validation",
+			"patterns": ["what is validation set", "validation set", "define validation set", "tell me about the validation set"],
+			"responses": ["A Validation set can be considered as a part of the training set as it is used for parameter selection and to avoid overfitting of the model being built.", "A Validation set can be considered as a part of the training set as it is used for parameter selection and to avoid overfitting of the model being built.", "A Validation set can be considered as a part of the training set as it is used for parameter selection and to avoid overfitting of the model being built.", "A Validation set can be considered as a part of the training set as it is used for parameter selection and to avoid overfitting of the model being built."]
+		}, {
+			"tag": "test",
+			"patterns": ["what is test set", "Test set", "define test set", "tell me about the test set"],
+			"responses": ["Test Set is used for testing or evaluating the performance of a trained machine learning model.", "Test Set is used for testing or evaluating the performance of a trained machine learning model.", "Test Set is used for testing or evaluating the performance of a trained machine learning model.", "Test Set is used for testing or evaluating the performance of a trained machine learning model."]
+		}, {
+			"tag": "svm",
+			"patterns": ["support vector machine", "what is support vector machine", "what is SVM", "SVM"],
+			"responses": ["SVM stands for support vector machine, it uses hyperplanes to separate out different classes based on the provided kernel function.", "SVM stands for support vector machine, it uses hyperplanes to separate out different classes based on the provided kernel function.", "SVM stands for support vector machine, it uses hyperplanes to separate out different classes based on the provided kernel function.", "SVM stands for support vector machine, it uses hyperplanes to separate out different classes based on the provided kernel function."]
+		}, {
+			"tag": "support vectors",
+			"patterns": ["what are support vectors", "what are support vectors in svm", "define support vectors", "support vectors"],
+			"responses": ["the thinner lines mark the distance from the classifier to the closest data points called the support vectors (darkened data points). The distance between the two thin lines is called the margin.", "the thinner lines mark the distance from the classifier to the closest data points called the support vectors (darkened data points). The distance between the two thin lines is called the margin.", "the thinner lines mark the distance from the classifier to the closest data points called the support vectors (darkened data points). The distance between the two thin lines is called the margin.", "the thinner lines mark the distance from the classifier to the closest data points called the support vectors (darkened data points). The distance between the two thin lines is called the margin."]
+		}, {
+			"tag": "kernels",
+			"patterns": ["what are kernels in svm", "kernels in svm", "kernels in support vector machine", "define kernels in svm"],
+			"responses": ["There are four types of kernels in SVM, linear kernel, polynomial kernel, radial basis kernel and sigmoid kernel", "There are four types of kernels in SVM, linear kernel, polynomial kernel, radial basis kernel and sigmoid kerne", "There are four types of kernels in SVM, linear kernel, polynomial kernel, radial basis kernel and sigmoid kerne", "There are four types of kernels in SVM, linear kernel, polynomial kernel, radial basis kernel and sigmoid kerne"]
+		}, {
+			"tag": "pruning",
+			"patterns": ["what is pruning", "what is pruning in decision tree", "pruning in decison tree", "pruning"],
+			"responses": ["Pruning is a technique in machine learning and search algorithms that reduces the size of decision trees by removing sections of the tree that provide little power to classify instances.", "Pruning is a technique in machine learning and search algorithms that reduces the size of decision trees by removing sections of the tree that provide little power to classify instances.", "Pruning is a technique in machine learning and search algorithms that reduces the size of decision trees by removing sections of the tree that provide little power to classify instances.", "Pruning is a technique in machine learning and search algorithms that reduces the size of decision trees by removing sections of the tree that provide little power to classify instances."]
+		}, {
+			"tag": "linear reg",
+			"patterns": ["what is linear regression", "linear regression technique", "what is linear regression technique", "define linear regression "],
+			"responses": ["Linear regression is a statistical technique where the score of a variable Y is predicted from the score of a second variable X. X is referred to as the predictor variable and Y as the criterion variable.", "Linear regression is a statistical technique where the score of a variable Y is predicted from the score of a second variable X. X is referred to as the predictor variable and Y as the criterion variable.", "Linear regression is a statistical technique where the score of a variable Y is predicted from the score of a second variable X. X is referred to as the predictor variable and Y as the criterion variable.", "Linear regression is a statistical technique where the score of a variable Y is predicted from the score of a second variable X. X is referred to as the predictor variable and Y as the criterion variable."]
+		}, {
+			"tag": "ensemble",
+			"patterns": ["what is ensemble learning", "ensemble learning", "what is ensemble learning in machine learning", "ensemble learning technique"],
+			"responses": ["Ensemble Learning is basically combining a diverse set of learners(Individual models) together to improvise on the stability and predictive power of the model.", "Ensemble Learning is basically combining a diverse set of learners(Individual models) together to improvise on the stability and predictive power of the model.", "v", "Ensemble Learning is basically combining a diverse set of learners(Individual models) together to improvise on the stability and predictive power of the model."]
+		}, {
+			"tag": "bagging",
+			"patterns": ["what is bagging", "what is bagging technique", "type of ensemble learning", "what is the one type of ensemble learning"],
+			"responses": ["Bagging tries to implement similar learners on small sample populations and then takes a mean of all the predictions. In generalised bagging, you can use different learners on different population. As you expect this helps us to reduce the variance error", "Bagging tries to implement similar learners on small sample populations and then takes a mean of all the predictions. In generalised bagging, you can use different learners on different population. As you expect this helps us to reduce the variance error", "Bagging tries to implement similar learners on small sample populations and then takes a mean of all the predictions. In generalised bagging, you can use different learners on different population. As you expect this helps us to reduce the variance error", "Bagging tries to implement similar learners on small sample populations and then takes a mean of all the predictions. In generalised bagging, you can use different learners on different population. As you expect this helps us to reduce the variance error"]
+		}, {
+			"tag": "boosting",
+			"patterns": ["what is boosting", "what is boosting technique", "what is one type of ensemble learning", "type of ensemble learning technique"],
+			"responses": ["Boosting is an iterative technique which adjusts the weight of an observation based on the last classification. If an observation was classified incorrectly, it tries to increase the weight of this observation and vice versa.", "Boosting is an iterative technique which adjusts the weight of an observation based on the last classification. If an observation was classified incorrectly, it tries to increase the weight of this observation and vice versa.", "Boosting is an iterative technique which adjusts the weight of an observation based on the last classification. If an observation was classified incorrectly, it tries to increase the weight of this observation and vice versa.", "Boosting is an iterative technique which adjusts the weight of an observation based on the last classification. If an observation was classified incorrectly, it tries to increase the weight of this observation and vice versa."]
+		}, {
+			"tag": "random",
+			"patterns": ["what is random forest", "what is random forest technique", "random forest technqiue", "define random foreset"],
+			"responses": ["Random forest is a versatile machine learning method capable of performing both regression and classification tasks. It is also used for dimensionality reduction, treats missing values, outlier values.", "Random forest is a versatile machine learning method capable of performing both regression and classification tasks. It is also used for dimensionality reduction, treats missing values, outlier values.", "Random forest is a versatile machine learning method capable of performing both regression and classification tasks. It is also used for dimensionality reduction, treats missing values, outlier values.", "Random forest is a versatile machine learning method capable of performing both regression and classification tasks. It is also used for dimensionality reduction, treats missing values, outlier values."]
+		}, {
+			"tag": "deep",
+			"patterns": ["what is deep learning", "deep learning technique", "what is deep learning technique", "tell me about deep learning"],
+			"responses": ["Deep Learning is nothing but a paradigm of machine learning which has shown incredible promise in recent years. This is because of the fact that Deep Learning shows a great analogy with the functioning of the human brain.", "Deep Learning is nothing but a paradigm of machine learning which has shown incredible promise in recent years. This is because of the fact that Deep Learning shows a great analogy with the functioning of the human brain.", "Deep Learning is nothing but a paradigm of machine learning which has shown incredible promise in recent years. This is because of the fact that Deep Learning shows a great analogy with the functioning of the human brain.", "Deep Learning is nothing but a paradigm of machine learning which has shown incredible promise in recent years. This is because of the fact that Deep Learning shows a great analogy with the functioning of the human brain."]
+		}, {
+			"tag": "reinforcement",
+			"patterns": ["what is reinforcement learning?", "define reinforcement learning", "reinforcement learning", "tell me about reinforcement learning"],
+			"responses": ["Reinforcement Learning is learning what to do and how to map situations to actions. The end result is to maximise the numerical reward signal. The learner is not told which action to take but instead must discover which action will yield the maximum reward.", "Reinforcement Learning is learning what to do and how to map situations to actions. The end result is to maximise the numerical reward signal. The learner is not told which action to take but instead must discover which action will yield the maximum reward.", "Reinforcement Learning is learning what to do and how to map situations to actions. The end result is to maximise the numerical reward signal. The learner is not told which action to take but instead must discover which action will yield the maximum reward.", ""]
+		}, {
+			"tag": "ann",
+			"patterns": ["what is ANN", "what is Artificial Neural Network", "define ANN", "define Artificial neural network"],
+			"responses": ["Artificial Neural networks are a specific set of algorithms that have revolutionized machine learning. They are inspired by biological neural networks", "Artificial Neural networks are a specific set of algorithms that have revolutionized machine learning. They are inspired by biological neural networks", "Artificial Neural networks are a specific set of algorithms that have revolutionized machine learning. They are inspired by biological neural networks", "Artificial Neural networks are a specific set of algorithms that have revolutionized machine learning. They are inspired by biological neural networks"]
+		}, {
+			"tag": "cost",
+			"patterns": ["what is cost function?", "cost function", "define cost function", "what are cost functions?"],
+			"responses": ["Also referred to as loss or error,cost function is a measure to evaluate how good your models performance is. It's used to compute the error of the output layer during backpropagation. We push that error backwards through the neural network and use that during the different training functions.", "Also referred to as loss or error,cost function is a measure to evaluate how good your models performance is. It's used to compute the error of the output layer during backpropagation. We push that error backwards through the neural network and use that during the different training functions.", "Also referred to as loss or error,cost function is a measure to evaluate how good your models performance is. It's used to compute the error of the output layer during backpropagation. We push that error backwards through the neural network and use that during the different training functions.", "Also referred to as loss or error,cost function is a measure to evaluate how good your models performance is. It's used to compute the error of the output layer during backpropagation. We push that error backwards through the neural network and use that during the different training functions."]
+		}, {
+			"tag": "epoch",
+			"patterns": ["what is epoch ", "epoch", "epoch in training", "Define epoch"],
+			"responses": ["Represents one iteration over the entire dataset (everything put into the training model).", "Represents one iteration over the entire dataset (everything put into the training model).", "Represents one iteration over the entire dataset (everything put into the training model).", "Represents one iteration over the entire dataset (everything put into the training model)."]
+		}, {
+			"tag": "batch",
+			"patterns": ["what is batch size", "batch size", "define batch size", "batch size in deep learning"],
+			"responses": ["Refers to when we cannot pass the entire dataset into the neural network at once, so we divide the dataset into several batches.", "Refers to when we cannot pass the entire dataset into the neural network at once, so we divide the dataset into several batches.", "Refers to when we cannot pass the entire dataset into the neural network at once, so we divide the dataset into several batches.", "Refers to when we cannot pass the entire dataset into the neural network at once, so we divide the dataset into several batches."]
+		}, {
+			"tag": "cnnlayers",
+			"patterns": ["what are different layers in CNN", "CNN layers", "Different types of layers in CNN", "Type of layers in CNN"],
+			"responses": ["There are four layers in CNN, Convolutional layer, Activation layer, Pooling layer and Fully connected layer", "There are four layers in CNN, Convolutional layer, Activation layer, Pooling layer and Fully connected layer", "There are four layers in CNN, Convolutional layer, Activation layer, Pooling layer and Fully connected layer", "There are four layers in CNN, Convolutional layer, Activation layer, Pooling layer and Fully connected layer"]
+		}, {
+			"tag": "convlayer",
+			"patterns": ["what is convolutional layer", "convolutional layer", "define convolutional layer", "convolutional layer in CNN"],
+			"responses": ["The layer that performs a convolutional operation, creating several smaller picture windows to go over the data.", "The layer that performs a convolutional operation, creating several smaller picture windows to go over the data.", "The layer that performs a convolutional operation, creating several smaller picture windows to go over the data.", "The layer that performs a convolutional operation, creating several smaller picture windows to go over the data."]
+		}, {
+			"tag": "relu",
+			"patterns": ["what is Relu layer", "relu activation function", "relu layer function", "Relu layer in CNN"],
+			"responses": ["It brings non-linearity to the network and converts all the negative pixels to zero. The output is a rectified feature map", "It brings non-linearity to the network and converts all the negative pixels to zero. The output is a rectified feature map", "It brings non-linearity to the network and converts all the negative pixels to zero. The output is a rectified feature map", "It brings non-linearity to the network and converts all the negative pixels to zero. The output is a rectified feature map"]
+		}, {
+			"tag": "pooling",
+			"patterns": ["what is pooling layer", "what is pooling layer in CNN", "pooling layer in CNN", "define pooling layer"],
+			"responses": ["Pooling is a down-sampling operation that reduces the dimensionality of the feature map.", "Pooling is a down-sampling operation that reduces the dimensionality of the feature map.", "Pooling is a down-sampling operation that reduces the dimensionality of the feature map.", "Pooling is a down-sampling operation that reduces the dimensionality of the feature map."]
+		}, {
+			"tag": "fully",
+			"patterns": ["what is fully connected layer", "fully connected layer", "fully connected layer in cnn", "define fully connected layer"],
+			"responses": ["This layer recognizes and classifies the objects in the image.", "This layer recognizes and classifies the objects in the image.", "This layer recognizes and classifies the objects in the image.", "This layer recognizes and classifies the objects in the image."]
+		}, {
+			"tag": "rnn",
+			"patterns": ["what is RNN", "what is Recurrent neural network", "define RNN", "define Recurrent neural network"],
+			"responses": ["RNNs are a type of artificial neural networks designed to recognise the pattern from the sequence of data such as Time series, stock market and government agencies etc.", "RNNs are a type of artificial neural networks designed to recognise the pattern from the sequence of data such as Time series, stock market and government agencies etc.", "RNNs are a type of artificial neural networks designed to recognise the pattern from the sequence of data such as Time series, stock market and government agencies etc.", "RNNs are a type of artificial neural networks designed to recognise the pattern from the sequence of data such as Time series, stock market and government agencies etc."]
+		}, {
+			"tag": "lstm",
+			"patterns": ["what is lstm", "what is long short term memory", "lstm", "long short term memory"],
+			"responses": ["Long-Short-Term Memory (LSTM) is a special kind of recurrent neural network capable of learning long-term dependencies, remembering information for long periods as its default behaviour", "Long-Short-Term Memory (LSTM) is a special kind of recurrent neural network capable of learning long-term dependencies, remembering information for long periods as its default behaviour", "Long-Short-Term Memory (LSTM) is a special kind of recurrent neural network capable of learning long-term dependencies, remembering information for long periods as its default behaviour", "Long-Short-Term Memory (LSTM) is a special kind of recurrent neural network capable of learning long-term dependencies, remembering information for long periods as its default behaviour"]
+		}, {
+			"tag": "mlp",
+			"patterns": ["what is MLP", "what is multilayer perceptron", "MLP", "Multi layer perceptron"],
+			"responses": ["As in Neural Networks, MLPs have an input layer, a hidden layer, and an output layer. It has the same structure as a single layer perceptron with one or more hidden layers.", "As in Neural Networks, MLPs have an input layer, a hidden layer, and an output layer. It has the same structure as a single layer perceptron with one or more hidden layers.", "v", "As in Neural Networks, MLPs have an input layer, a hidden layer, and an output layer. It has the same structure as a single layer perceptron with one or more hidden layers."]
+		}, {
+			"tag": "gradient",
+			"patterns": ["what is gradient descent", "define gradient descent", "gradient descent", "what is gradient descent in deep learning"],
+			"responses": ["Gradient Descent can be thought of climbing down to the bottom of a valley, instead of climbing up a hill.  This is because it is a minimization algorithm that minimizes a given function (Activation Function).", "Gradient Descent can be thought of climbing down to the bottom of a valley, instead of climbing up a hill.  This is because it is a minimization algorithm that minimizes a given function (Activation Function).", "Gradient Descent can be thought of climbing down to the bottom of a valley, instead of climbing up a hill.  This is because it is a minimization algorithm that minimizes a given function (Activation Function).", "Gradient Descent can be thought of climbing down to the bottom of a valley, instead of climbing up a hill.  This is because it is a minimization algorithm that minimizes a given function (Activation Function)."]
+		}, {
+			"tag": "exploding",
+			"patterns": ["what is exploding gradient", "what is exploding gradient issue", "exploding gradient", "exploding gradients"],
+			"responses": ["While training a networ, if you see exponentially growing (very large) error gradients which accumulate and result in very large updates to neural network model weights during training, they are known as exploding gradients", "While training a network, if you see exponentially growing (very large) error gradients which accumulate and result in very large updates to neural network model weights during training, they are known as exploding gradients", "While training a network, if you see exponentially growing (very large) error gradients which accumulate and result in very large updates to neural network model weights during training, they are known as exploding gradients", "While training a network, if you see exponentially growing (very large) error gradients which accumulate and result in very large updates to neural network model weights during training, they are known as exploding gradients"]
+		}, {
+			"tag": "vanishing",
+			"patterns": ["what is vanishing gradient", "what is vanishing gradient issue", "vanishing gradient issue", "what is vanishing gradient in neural network"],
+			"responses": ["While training a network, your slope can become either too small; this makes the training difficult. When the slope is too small, the problem is known as a Vanishing Gradient.", "While training a network, your slope can become either too small; this makes the training difficult. When the slope is too small, the problem is known as a Vanishing Gradient.", "While training a network, your slope can become either too small; this makes the training difficult. When the slope is too small, the problem is known as a Vanishing Gradient.", "While training a network, your slope can become either too small; this makes the training difficult. When the slope is too small, the problem is known as a Vanishing Gradient."]
+		}, {
+			"tag": "back",
+			"patterns": ["what is back propagation", "back propagation", "back propagataion algorithm", "back propagation technique"],
+			"responses": ["Backpropagation is a training algorithm used for multilayer neural network. In this method, we move the error from an end of the network to all weights inside the network and thus allowing efficient computation of the gradient", "Backpropagation is a training algorithm used for multilayer neural network. In this method, we move the error from an end of the network to all weights inside the network and thus allowing efficient computation of the gradient", "Backpropagation is a training algorithm used for multilayer neural network. In this method, we move the error from an end of the network to all weights inside the network and thus allowing efficient computation of the gradient", "Backpropagation is a training algorithm used for multilayer neural network. In this method, we move the error from an end of the network to all weights inside the network and thus allowing efficient computation of the gradient"]
+		}, {
+			"tag": "variants",
+			"patterns": ["what are variants of back propagation", "types of back propagation algorithm", "different back propagation algorithm", "what are types of back propagation algorithm"],
+			"responses": ["Stochastic Gradient Descent, Batch Gradient Descent and Mini-batch Gradient Descent", "Stochastic Gradient Descent, Batch Gradient Descent and Mini-batch Gradient Descent", "Stochastic Gradient Descent, Batch Gradient Descent and Mini-batch Gradient Descent", "Stochastic Gradient Descent, Batch Gradient Descent and Mini-batch Gradient Descent"]
+		}, {
+			"tag": "activation",
+			"patterns": ["what is activation function", "activation function in deep learning", "activation function", "activation function in neural network"],
+			"responses": ["The Activation function is used to introduce non-linearity into the neural network helping it to learn more complex function. Without which the neural network would be only able to learn linear function which is a linear combination of its input data.", "The Activation function is used to introduce non-linearity into the neural network helping it to learn more complex function. Without which the neural network would be only able to learn linear function which is a linear combination of its input data.", "The Activation function is used to introduce non-linearity into the neural network helping it to learn more complex function. Without which the neural network would be only able to learn linear function which is a linear combination of its input data.", "The Activation function is used to introduce non-linearity into the neural network helping it to learn more complex function. Without which the neural network would be only able to learn linear function which is a linear combination of its input data."]
+		}, {
+			"tag": "dropout",
+			"patterns": ["what is dropout", "dropout regularization technique", "what is dropout in deep learning", "dropout"],
+			"responses": ["Dropout is a technique of dropping out hidden and visible units of a network randomly to prevent overfitting of data (typically dropping 20 per cent of the nodes). It doubles the number of iterations needed to converge the network.", "Dropout is a technique of dropping out hidden and visible units of a network randomly to prevent overfitting of data (typically dropping 20 per cent of the nodes). It doubles the number of iterations needed to converge the network.", "Dropout is a technique of dropping out hidden and visible units of a network randomly to prevent overfitting of data (typically dropping 20 per cent of the nodes). It doubles the number of iterations needed to converge the network.", "Dropout is a technique of dropping out hidden and visible units of a network randomly to prevent overfitting of data (typically dropping 20 per cent of the nodes). It doubles the number of iterations needed to converge the network."]
+		}, {
+			"tag": "batchnor",
+			"patterns": ["what is batch normalization", "batch normalization", "batch normalization in deep learning", "tell me about batch Normalization"],
+			"responses": ["Batch normalization is the technique to improve the performance and stability of neural networks by normalizing the inputs in every layer so that they have mean output activation of zero and standard deviation of one.", "Batch normalization is the technique to improve the performance and stability of neural networks by normalizing the inputs in every layer so that they have mean output activation of zero and standard deviation of one.", "Batch normalization is the technique to improve the performance and stability of neural networks by normalizing the inputs in every layer so that they have mean output activation of zero and standard deviation of one.", "Batch normalization is the technique to improve the performance and stability of neural networks by normalizing the inputs in every layer so that they have mean output activation of zero and standard deviation of one."]
+		}, {
+			"tag": "batchgradient",
+			"patterns": ["what is batch gradient", "define batch gradient descent", "batch gradient descent", "what is batch gradient descent"],
+			"responses": ["The batch gradient computes the gradient using the entire dataset. It takes time to converge because the volume of data is huge, and weights update slowly", "The batch gradient computes the gradient using the entire dataset. It takes time to converge because the volume of data is huge, and weights update slowly", "The batch gradient computes the gradient using the entire dataset. It takes time to converge because the volume of data is huge, and weights update slowly", "The batch gradient computes the gradient using the entire dataset. It takes time to converge because the volume of data is huge, and weights update slowly"]
+		}, {
+			"tag": "stochastic",
+			"patterns": ["what is stochastic gradient", "what is stochastic gradient descent", "stochastic gradient descent", "stochastic"],
+			"responses": ["The stochastic gradient computes the gradient using a single sample. It converges much faster than the batch gradient because it updates weight more frequently.", "The stochastic gradient computes the gradient using a single sample. It converges much faster than the batch gradient because it updates weight more frequently.", "The stochastic gradient computes the gradient using a single sample. It converges much faster than the batch gradient because it updates weight more frequently.", "The stochastic gradient computes the gradient using a single sample. It converges much faster than the batch gradient because it updates weight more frequently."]
+		}, {
+			"tag": "tensor",
+			"patterns": ["what is tensor", "what are tensors", "what are tensors in tensorflow", "define tensors"],
+			"responses": ["A tensor is a mathematical object represented as arrays of higher dimensions. These arrays of data with different dimensions and ranks fed as input to the neural network are called Tensors", "A tensor is a mathematical object represented as arrays of higher dimensions. These arrays of data with different dimensions and ranks fed as input to the neural network are called Tensors", "A tensor is a mathematical object represented as arrays of higher dimensions. These arrays of data with different dimensions and ranks fed as input to the neural network are called Tensors", "A tensor is a mathematical object represented as arrays of higher dimensions. These arrays of data with different dimensions and ranks fed as input to the neural network are called Tensors"]
+		},
+		{
+			"tag": "precision",
+			"patterns": ["what is precision", "precision", "define precision", "what is precision in machine learning"],
+			"responses": ["Precision talks about how precise/accurate your model is out of those predicted positive, how many of them are actual positive.", "Precision talks about how precise/accurate your model is out of those predicted positive, how many of them are actual positive.", "Precision talks about how precise/accurate your model is out of those predicted positive, how many of them are actual positive.", "Precision talks about how precise/accurate your model is out of those predicted positive, how many of them are actual positive."]
+		}, {
+			"tag": "recall",
+			"patterns": ["what is recall", "recall", "define recall", "what is recall"],
+			"responses": ["Recall actually calculates how many of the Actual Positives our model capture through labeling it as Positive (True Positive)", "Recall actually calculates how many of the Actual Positives our model capture through labeling it as Positive (True Positive)", "Recall actually calculates how many of the Actual Positives our model capture through labeling it as Positive (True Positive)", "Recall actually calculates how many of the Actual Positives our model capture through labeling it as Positive (True Positive)"]
+		}, {
+			"tag": "f1score",
+			"patterns": ["what is F1-score", "what is F1score", "F1score", "F1-score"],
+			"responses": ["The F1 score is the harmonic mean of the precision and recall, where an F1 score reaches its best value at 1 (perfect precision and recall).", "The F1 score is the harmonic mean of the precision and recall, where an F1 score reaches its best value at 1 (perfect precision and recall).", "The F1 score is the harmonic mean of the precision and recall, where an F1 score reaches its best value at 1 (perfect precision and recall).", "The F1 score is the harmonic mean of the precision and recall, where an F1 score reaches its best value at 1 (perfect precision and recall)."]
+		}, {
+			"tag": "accuracy",
+			"patterns": ["what is accuracy", "what is accuracy measure", "define accuracy", "accuracy score"],
+			"responses": ["Accuracy is the most intuitive performance measure and it is simply a ratio of correctly predicted observation to the total observations.", "Accuracy is the most intuitive performance measure and it is simply a ratio of correctly predicted observation to the total observations.", "Accuracy is the most intuitive performance measure and it is simply a ratio of correctly predicted observation to the total observations.", "Accuracy is the most intuitive performance measure and it is simply a ratio of correctly predicted observation to the total observations."]
+		}, {
+			"tag": "truep",
+			"patterns": ["what is True positive", "true positive", "True positive", "define true positive"],
+			"responses": ["These are the correctly predicted positive values which means that the value of actual class is yes and the value of predicted class is also yes", "These are the correctly predicted positive values which means that the value of actual class is yes and the value of predicted class is also yes", "These are the correctly predicted positive values which means that the value of actual class is yes and the value of predicted class is also yes", "These are the correctly predicted positive values which means that the value of actual class is yes and the value of predicted class is also yes"]
+		}, {
+			"tag": "truen",
+			"patterns": ["True negative", "What is true negative", "True Negative", "define true negative"],
+			"responses": ["These are the correctly predicted negative values which means that the value of actual class is no and value of predicted class is also no", "These are the correctly predicted negative values which means that the value of actual class is no and value of predicted class is also no", "These are the correctly predicted negative values which means that the value of actual class is no and value of predicted class is also no", "These are the correctly predicted negative values which means that the value of actual class is no and value of predicted class is also no"]
+		}, {
+			"tag": "falsep",
+			"patterns": ["false positive", "what is false positive", "define false positive", "False Positive"],
+			"responses": ["When actual class is no and predicted class is yes.", "When actual class is no and predicted class is yes.", "When actual class is no and predicted class is yes.", "When actual class is no and predicted class is yes."]
+		}, {
+			"tag": "falsen",
+			"patterns": ["false negative", "what is false negative", "False negative", "define false negative"],
+			"responses": ["When actual class is yes but predicted class in no.", "When actual class is yes but predicted class in no.", "When actual class is yes but predicted class in no.", "When actual class is yes but predicted class in no."]
+		}, {
+			"tag": "else",
+			"patterns": ["", " ", " ", " "],
+			"responses": ["Enter different question", "Enter different question", "Enter different question", "Enter different question"]
+		}
+	]
+
+
+}

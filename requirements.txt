@@ -8,4 +8,4 @@ numpy>=1.9.2
 matplotlib>=1.4.3
 pandas>=0.19
 nltk>=3.4.5
-tensorflow>=2.0
+tensorflow==1.14.0

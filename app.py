@@ -19,7 +19,6 @@ import pickle
 import os
 import tensorflow as tf
 import nltk
-import tflearn
 import json
 import numpy as np
 import random
